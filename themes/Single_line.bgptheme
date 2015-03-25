@@ -29,7 +29,7 @@ unset_git_prompt_colors() {
 
 define_helpers()
 {
-  Time12a="\$(date +%H:%M)"
+  Time12a="(\$(hostname))"
   PathShort="\w";
 }
 
